@@ -8,7 +8,7 @@ git clone https://$TOKEN@github.com/melisavcilar/CAPSTONE_MELIS.git
 cd /home/ubuntu/CAPSTONE_MELIS
 apt install python3-pip -y
 apt-get install python3.7-dev libmysqlclient-dev -y
-pip3 install -r requiremTHUB REPO ents.txt
+pip3 install -r requirements.txt
 cd /home/ubuntu/CAPSTONE_MELIS/src
 python3 manage.py collectstatic --noinput
 python3 manage.py makemigrations
